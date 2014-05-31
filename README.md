@@ -17,3 +17,8 @@ you want to have infinite ammo in a game:
 * Press "->" to store the found memory location.
 * Select the stored location and write the desired ammo count in the textbox below the
   list, and press set.
+
+This tool is not intended for cheating in multiplayer games (unless all of the players agree).
+
+Also, be careful, especially when poking .NET or Java applications. It's very easy to crash
+a process by writing liberally over its memory :) 
