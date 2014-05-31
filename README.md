@@ -6,7 +6,7 @@ Automatic memory search &amp; poke
 This tool allows you to scan the memory of a process, find the memory location of
 some variable and change it as needed.
 
-In effect, this can be use as a semi-automatical game trainer. For example, say
+In effect, this can be used as a semi-automatical game trainer. For example, say
 you want to have infinite ammo in a game:
 
 * Load the process list and select the game process in the top dropdown
