@@ -87,6 +87,7 @@
     <None Include="SearchTypes\DecimalSearch.cs" />
     <Compile Include="SearchTypes\Int32DeltaSearch.cs" />
     <Compile Include="SearchTypes\DoubleSearch.cs" />
+    <Compile Include="SearchTypes\Int32PrefixSearch.cs" />
     <Compile Include="SearchTypes\SingleSearch.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

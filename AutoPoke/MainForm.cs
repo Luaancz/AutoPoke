@@ -124,6 +124,7 @@ namespace Luaan.AutoPoke
 					case "ΔDouble": searchData = new DoubleSearch(tbxSearchValue.Text, double.Parse(tbxDelta.Text.Replace(",", "."), CultureInfo.InvariantCulture)); break;
 					case "ΔInt32": searchData = new Int32DeltaSearch(tbxSearchValue.Text, int.Parse(tbxDelta.Text)); break;
 					case "Int16": searchData = new Int16Search(tbxSearchValue.Text); break;
+                    case "Int32*": searchData = new Int32PrefixSearch(tbxSearchValue.Text); break;
 					case "Int32":
 					default:
 						searchData = new Int32Search(tbxSearchValue.Text); break;
